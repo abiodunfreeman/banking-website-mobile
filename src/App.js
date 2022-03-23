@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Info from "./components/Info";
+import Articles from "./components/Articles";
 import Footer from "./components/Footer";
 import "./styles.css";
 import Header from "./components/Header";
@@ -15,6 +16,7 @@ export default function App() {
       <Nav />
       <Hero />
       <Info />
+      <Articles />
       <Footer />
     </div>
   );

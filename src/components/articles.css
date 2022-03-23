@@ -1,0 +1,36 @@
+#articles-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 98%);
+}
+#articles-container h1 {
+  color: hsl(233, 26%, 24%);
+  font-weight: 300;
+}
+.article-card {
+  width: 100%;
+}
+.article-card img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card-desc {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 1rem;
+  background-color: white;
+}
+.card-desc p {
+  text-align: justify;
+  font-size: 14px;
+  color: hsl(233, 8%, 62%);
+}
+.card-desc h3 {
+  color: hsl(233, 26%, 24%);
+  font-weight: 300;
+}
