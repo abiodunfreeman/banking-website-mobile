@@ -16,6 +16,7 @@ nav {
   padding: 1rem;
 }
 #nav-container {
+  width: 375px;
   transition: 1.5s;
   z-index: 1;
   left: 0;

@@ -7,6 +7,7 @@
 .App {
   display: flex;
   flex-direction: column;
+  width: 375px;
 }
 .req-btn {
   width: 150px;
@@ -25,4 +26,9 @@
 }
 li {
   list-style: none;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(100, 100, 0, 0.5);
 }
