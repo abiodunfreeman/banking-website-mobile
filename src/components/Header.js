@@ -1,9 +1,10 @@
 import { useState } from "react";
 import "./header.css";
-export default function Header() {
+export default function Header(props) {
   const [clicked, setClicked] = useState(false);
   function handleClick() {
     setClicked((prevClick) => !prevClick);
+    props.toggleNav();
   }
   let icon = "";
   clicked
