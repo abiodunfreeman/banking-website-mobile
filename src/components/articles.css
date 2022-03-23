@@ -1,8 +1,9 @@
 #articles-container {
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
   align-items: center;
-  padding: 1rem;
+  padding: 1.3rem;
   background-color: hsl(0, 0%, 98%);
 }
 #articles-container h1 {
@@ -18,7 +19,6 @@
   border-top-right-radius: 20px;
 }
 .card-desc {
-  border: 3px solid red;
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
