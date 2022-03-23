@@ -1,5 +1,6 @@
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
+import Info from "./components/Info";
 import "./styles.css";
 import Header from "./components/Header";
 export default function App() {
@@ -11,7 +12,8 @@ export default function App() {
     <div className="App">
       <Header toggleNav={toggleNav} />
       <Nav />
-      <Hero />
+      {/* <Hero /> */}
+      <Info />
     </div>
   );
 }

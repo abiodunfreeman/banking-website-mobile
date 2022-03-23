@@ -1,0 +1,32 @@
+#info-container {
+  z-index: 0;
+  background-color: hsl(220, 16%, 96%);
+  display: block;
+  position: relative;
+  top: 0;
+}
+#info-header {
+  font-weight: 300;
+}
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+.info-card p {
+  color: hsl(233, 8%, 62%);
+}
+.info-card h2 {
+  color: hsl(233, 26%, 24%);
+  font-weight: 300;
+}
+.info-card h1 {
+  color: hsl(233, 26%, 24%);
+  font-weight: 300;
+}
+.info-card img {
+  max-width: 100px;
+}

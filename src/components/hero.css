@@ -12,8 +12,7 @@
     width: 100%;
   }
   #hero-container {
-    position: fixed;
-    border: 10px solid;
+    position: absolute;
     height: 100vh;
     background-color: white;
   }
