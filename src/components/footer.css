@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px 0 40px 0;
+  background-color: hsl(233, 26%, 24%);
+  color: white;
+}
+footer li {
+  list-style: none;
+  text-align: center;
+  margin: 15px;
+}
+footer li:hover,
+img:hover {
+  cursor: pointer;
+}
+
+.links-row {
+  display: flex;
+  gap: 1rem;
+}
