@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="App">
       <Header toggleNav={toggleNav} />
-      <Nav />
+      {/* <Nav /> */}
       <Hero />
       <Info />
       <Articles />

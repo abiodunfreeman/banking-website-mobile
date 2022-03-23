@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./header.css";
+import Nav from "./Nav";
 export default function Header(props) {
   const [clicked, setClicked] = useState(false);
   function handleClick() {
@@ -11,9 +12,12 @@ export default function Header(props) {
     ? (icon = "./images/icon-close.svg")
     : (icon = "./images/icon-hamburger.svg");
   return (
-    <header>
-      <img src="./images/logo.svg" alt="easybank logo" />
-      <img onClick={() => handleClick()} src={icon} alt="nav-drop-down" />
-    </header>
+    <div id="header-container">
+      <header>
+        <img src="./images/logo.svg" alt="easybank logo" />
+        <img onClick={() => handleClick()} src={icon} alt="nav-drop-down" />
+      </header>
+      <Nav />
+    </div>
   );
 }
