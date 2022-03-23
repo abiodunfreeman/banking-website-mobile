@@ -14,7 +14,7 @@ footer li {
   margin: 15px;
 }
 footer li:hover,
-img:hover {
+.links-row img:hover {
   cursor: pointer;
 }
 
