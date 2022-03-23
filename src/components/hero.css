@@ -1,4 +1,9 @@
 @media (max-width: 375px) {
+  #hero-container {
+    position: relative;
+    height: 85vh;
+    background-color: white;
+  }
   #hero-img-container {
     position: relative;
   }
@@ -10,11 +15,6 @@
     position: absolute;
     top: -95px;
     width: 100%;
-  }
-  #hero-container {
-    position: absolute;
-    height: 100vh;
-    background-color: white;
   }
 
   #hero-desc-container {
