@@ -14,6 +14,42 @@
     width: 100%;
   }
   #hero-container {
+    /* position: relative; */
+    border: 10px solid;
+    height: 95vh;
+    background-color: white;
+  }
+
+  #hero-desc-container {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    gap: 2rem;
+    top: 310px;
+    border: 5px solid red;
+  }
+  #hero-desc-container > h1 {
+    text-align: center;
+  }
+  #hero-desc-container > p {
+    text-align: justify;
+    line-height: 1.45rem;
+  }
+  .req-btn {
+    width: 140px;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 40px;
+    color: white;
+    background-image: linear-gradient(
+      to top right,
+      hsl(136, 65%, 51%),
+      hsl(192, 70%, 51%)
+    );
+  }
+  .req-btn:hover {
+    cursor: pointer;
   }
 }
