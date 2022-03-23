@@ -15,7 +15,9 @@ export default function Hero() {
         />
       </div>
       <div id="hero-desc-container">
-        <h1>Next generation digital banking</h1>
+        <h1>
+          Next generation <br /> digital banking
+        </h1>
         <p>
           Take your financial life online. Your Easybank account will be a
           one-stop-shop for spending, saving, budgeting, investing, and much

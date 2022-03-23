@@ -2,8 +2,24 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
 }
 .App {
   display: flex;
   flex-direction: column;
+}
+.req-btn {
+  width: 150px;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 40px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+}
+.req-btn:hover {
+  cursor: pointer;
 }

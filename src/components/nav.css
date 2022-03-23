@@ -6,13 +6,12 @@ nav > li:hover {
 }
 nav {
   display: flex;
-  z-index: 12;
-  position: absolute;
-  top: 0px;
+  position: relative;
   width: 90vw;
+  height: 30%;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
   background-color: white;
   margin: 0.7rem;
   border-radius: 0.5rem;
@@ -20,13 +19,15 @@ nav {
   padding: 1rem;
 }
 #nav-container {
+  justify-content: center;
+  z-index: 12;
   position: relative;
   height: 90vh;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .hide-nav {
   display: none;
 }
 .show-nav {
-  display: block;
+  display: flex;
 }
